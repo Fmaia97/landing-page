@@ -356,6 +356,10 @@ body .full-width {
 /* === Media Queries */
 
 @media (max-width: 880px) {
+
+  h2 {
+    font-size: 5rem;
+  }
   .intro-content,
   .grid {
     grid-template-columns: 1fr;
@@ -426,8 +430,15 @@ body .full-width {
   }
 }  
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
 
+  h2 {
+    font-size: 4.5rem;
+  }
+
+  .intro-text-content {
+    text-align: start;
+  }
   .form-group {
     flex: none;
   }
@@ -449,7 +460,7 @@ body .full-width {
 
 }
 
-@media (max-width: 325px) {
+@media (max-width: 371px) {
   
   h2 {
     font-size: 4.5rem;
