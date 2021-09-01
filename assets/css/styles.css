@@ -361,6 +361,9 @@ body .full-width {
     grid-template-columns: 1fr;
   }
 
+  .intro-content {
+    gap:0;
+  }
   .gallery-img {
     width: 100%;
     max-width: 100%;
@@ -435,7 +438,7 @@ body .full-width {
   }
   
   #message {
-    width: 84%;
+    width: 91%;
   }
 
   .footer {
@@ -446,10 +449,18 @@ body .full-width {
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 325px) {
   
   h2 {
     font-size: 4.5rem;
+  }
+
+  div .form-grid {
+    width: 100%;
+  }
+
+  .form-group {
+    flex: auto;
   }
 
   .form-group button {

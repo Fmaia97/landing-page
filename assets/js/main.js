@@ -18,7 +18,6 @@ class ValidaFormulario {
     if (!camposValidos || !emailsValidos) {
       return;
     }
-    alert("Formulário Enviado!");
     this.formulario.submit();
   }
 
